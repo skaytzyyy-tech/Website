@@ -1,0 +1,88 @@
+*,
+html{
+  margin: 0;
+  padding: 0;
+}
+
+.head{
+  background: linear-gradient(135deg, #3bcbd8, #80edf7, #b6f2f7);
+  height: 7vh;
+}
+.head-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.ul-navbar {
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+ 
+}
+
+.li-navbar {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.li-navbar:hover{
+  background-color: #000;
+  border: 10px solid #000;
+  border-radius: 5px;
+}
+  
+
+
+.a-nav{
+  color: #fff;
+  text-decoration: none;
+}
+
+.body{
+  background-color: white;
+  height: 78vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a-bod{
+  background-color: #000 ;
+  display: flex;
+  flex-direction: column;
+   text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  height: 35%;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow:  10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.img-content{
+  background-color: black;
+  width:80%;
+  height: 70%;
+  border-radius: 10px;
+}
+
+.b-body {
+  color: gold;
+}
+
+.bod-foot{
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  height: 6.9vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h-bod{
+  color: #fff;
+}
